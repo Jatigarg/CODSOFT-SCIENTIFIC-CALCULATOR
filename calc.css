@@ -1,0 +1,65 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #d7dadc;
+}
+
+.container
+{
+    width: 90%;
+    max-width: 45%;
+    height: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 13px 13px 18px #cbced1 ,
+                 -13px -13px 18px #ffffff;
+}
+
+.screen #dis
+{
+    width: 97%;
+    height: 80px;
+    font-size: 40px;
+    text-align: right;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-shadow: inset 7px 7px 7px #8d97a169,
+                inset -7px -7px 7px #ffffff;
+    background-color: #ffffff;
+}
+
+.button
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1.9em;
+}
+
+.button .row button
+{
+    width: 70px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    box-shadow: 5px 5px 8px #00000020,
+                -5px -5px 8px #ffffff;
+    transition: .1s;
+}
+
+.button .row button:hover
+{
+    box-shadow: inset 5px 5px 8px rgba(16, 16, 16, 0.10),
+                inset -5px -5px 8px #fff;
+    background: #fff;
+}

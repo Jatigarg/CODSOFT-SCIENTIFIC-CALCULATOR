@@ -1,0 +1,2 @@
+Create a basic calculator using CSS, HTML, and JavaScript. all the code related to 
+this project are available in the file (cal.html) and (calc.css)
